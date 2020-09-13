@@ -11,3 +11,5 @@ persist.vendor.bt.a2dp.aac_whitelist=false
 # Bluetooth
 ro.bluetooth.library_name=libbluetooth.so
 
+# Priv-app permission
+ro.control_privapp_permissions=log
