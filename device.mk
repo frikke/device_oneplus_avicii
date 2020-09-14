@@ -136,8 +136,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.0
 
 # Doze
-PRODUCT_PACKAGES += \
-    OnePlusDoze
+#PRODUCT_PACKAGES += \
+#    OnePlusDoze
 
 # fastbootd
 PRODUCT_PACKAGES += \
