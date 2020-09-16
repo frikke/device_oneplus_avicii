@@ -204,6 +204,11 @@ PRODUCT_PACKAGES += \
     vendor.nxp.nxpese@1.0:64 \
     vendor.nxp.nxpnfc@1.0:64
 
+# NXP NFC (Q) dependencied
+PRODUCT_PACKAGES += \
+    libmetricslogger \
+    libhwbinder
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.oneplus_lito
