@@ -12,3 +12,8 @@ ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.disable_rescue=true
 endif
+
+# Override Display Density
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sf.lcd_density=440
+
