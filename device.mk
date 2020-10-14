@@ -199,8 +199,10 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2:64 \
     android.hardware.secure_element@1.0:64 \
     com.android.nfc_extras \
-    NfcNci \
+    SecureElement \
     Tag \
+    vendor.nxp.nxpese@1.0:64 \
+    vendor.nxp.nxpnfc@1.0:64
 
 # Power
 PRODUCT_PACKAGES += \
@@ -267,3 +269,8 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Wallpapers
 PRODUCT_PACKAGES += \
     PixelLiveWallpaperPrebuilt
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
