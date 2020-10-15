@@ -68,6 +68,7 @@ TARGET_KERNEL_CONFIG := vendor/lito-perf_defconfig
 TARGET_KERNEL_CLANG_VERSION := proton
 KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
